@@ -205,15 +205,7 @@ namespace PictureToBinaryRGB
                 _cts = null;
 
                 // Enable controls.
-                Main_Picturebox.Enabled = true;
-                UseDefualt_CheckBox.Enabled = true;
-                ColorPalette_Groupbox.Enabled = true;
-                Offsets_Groupbox.Enabled = true;
-                AddPhotos_Textbox.Enabled = true;
-                AddPhotos_Button.Enabled = true;
-                SaveLocation_Textbox.Enabled = true;
-                SaveLocation_Button.Enabled = true;
-                ImageFlipMode_CheckBox.Enabled = true;
+                ToggleControls(true);
 
                 // Reset UI elements
                 ConvertImages_Button.Text = "Convert Images";
@@ -225,15 +217,7 @@ namespace PictureToBinaryRGB
             else
             {
                 // Disable controls.
-                Main_Picturebox.Enabled = false;
-                UseDefualt_CheckBox.Enabled = false;
-                ColorPalette_Groupbox.Enabled = false;
-                Offsets_Groupbox.Enabled = false;
-                AddPhotos_Textbox.Enabled = false;
-                AddPhotos_Button.Enabled = false;
-                SaveLocation_Textbox.Enabled = false;
-                SaveLocation_Button.Enabled = false;
-                ImageFlipMode_CheckBox.Enabled = false;
+                ToggleControls(false);
 
                 // Change buttons text.
                 ConvertImages_Button.Text = "Cancle Conversion";
@@ -264,15 +248,7 @@ namespace PictureToBinaryRGB
                     ConvertImages_Button.Text = "Convert Images";
 
                     // Enable controls.
-                    Main_Picturebox.Enabled = true;
-                    UseDefualt_CheckBox.Enabled = true;
-                    ColorPalette_Groupbox.Enabled = true;
-                    Offsets_Groupbox.Enabled = true;
-                    AddPhotos_Textbox.Enabled = true;
-                    AddPhotos_Button.Enabled = true;
-                    SaveLocation_Textbox.Enabled = true;
-                    SaveLocation_Button.Enabled = true;
-                    ImageFlipMode_CheckBox.Enabled = false;
+                    ToggleControls(true);
 
                     // Job Finished.
                     MessageBox.Show("Conversion Has Completed!");
@@ -287,6 +263,22 @@ namespace PictureToBinaryRGB
                     }
                 }
             }
+        }
+        #endregion
+
+        #region Enable / Disable Controls
+
+        public void ToggleControls(bool toggledState)
+        {
+            Main_Picturebox.Enabled = toggledState;
+            UseDefualt_CheckBox.Enabled = toggledState;
+            ColorPalette_Groupbox.Enabled = toggledState;
+            Offsets_Groupbox.Enabled = toggledState;
+            AddPhotos_Textbox.Enabled = toggledState;
+            AddPhotos_Button.Enabled = toggledState;
+            SaveLocation_Textbox.Enabled = toggledState;
+            SaveLocation_Button.Enabled = toggledState;
+            ImageFlipMode_CheckBox.Enabled = toggledState;
         }
         #endregion
 
