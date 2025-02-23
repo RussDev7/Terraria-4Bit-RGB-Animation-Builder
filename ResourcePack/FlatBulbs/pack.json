@@ -1,0 +1,9 @@
+{
+	"Name": "Flat Bulb Textures",
+	"Author": "RussDev7",
+	"Description": "Simply changes the textures of wire bulbs to a flatter style. Very helpful in the design of complex wiring circuits.",
+	"Version": {
+		"major": 1,
+		"minor": 0
+	}
+}
