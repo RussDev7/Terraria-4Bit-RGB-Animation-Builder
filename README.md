@@ -85,7 +85,7 @@ About: *(these settings are already configured by defualt)*
 
 #### **Gif 1: Color Palette Picker Demo** | **Gif 2: Mass Conversion Demo**
 
-<img src="https://github.com/user-attachments/assets/a4f55fe7-186f-4005-9cbb-cd11ff413ff2" width="450" height="550"/><img src="https://github.com/user-attachments/assets/839eb116-30fd-4c3d-84db-b1dbad07e8a0" width="25" height="1"/><img src="https://github.com/user-attachments/assets/2ef334bb-40e4-4901-98c5-f15abcce69a1" width="450" height="550"/>
+<img src="https://github.com/user-attachments/assets/a4f55fe7-186f-4005-9cbb-cd11ff413ff2" width="400" height="500"/><img src="https://github.com/user-attachments/assets/839eb116-30fd-4c3d-84db-b1dbad07e8a0" width="25" height="1"/><img src="https://github.com/user-attachments/assets/2ef334bb-40e4-4901-98c5-f15abcce69a1" width="400" height="500"/>
 
 For people looking to use the a palette that most closely represents the default textures of the Wirebulb, I have also included a checkbox called `Use Defualt` to swap the palette to the default array.
 
