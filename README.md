@@ -47,7 +47,7 @@ For those who do not understand what Transmutation is, it's a glitch in Terraria
 
 <img src="https://github.com/user-attachments/assets/546d966f-a542-4a17-840b-639791c8c76a" width="250" height="250"/>
 
-Without getting too technical, this glitch allows us to simply change the wire bulb to any sprite (color) remotly from any position on the Y axis.
+Without getting too technical, this glitch allows us to simply change the wire bulb to any sprite (color) remotely from any position on the Y axis.
 
 <img src="https://github.com/user-attachments/assets/8bade025-02df-40d3-80cd-d92a2a8fb657" width="400" height="350"/>
 
