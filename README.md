@@ -3,6 +3,8 @@ Worlds First FULL 16-Bit Color Display In Terraria.
 
 [![RGB Display](https://github.com/user-attachments/assets/3742ed39-6e9e-4863-a00a-71bbd0c3947f)](https://www.youtube.com/watch?v=c_R4L266D3M "Worlds First FULL 16-Bit Color Display In Terraria!")
 
+![Vanilla_Terraria_16-Bit_Shrek](https://github.com/user-attachments/assets/f6074bed-9a12-4519-9cca-ead9a8b0e359)
+
 ## How It Works?
 
 The way this technology works is by using a few of the games different principles. The first one we need to start with is what RGB is and what the current methods of obtaining it is.
