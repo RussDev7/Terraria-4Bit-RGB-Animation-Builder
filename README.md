@@ -1,9 +1,9 @@
-# Terraria 16-Bit RGB Animation Builder
-Worlds First FULL 16-Bit Color Display In Terraria.
+# Terraria 4-Bit RGB Animation Builder
+Worlds First FULL 4-Bit Color Display In Terraria.
 
-[![RGB Display](https://github.com/user-attachments/assets/3742ed39-6e9e-4863-a00a-71bbd0c3947f)](https://www.youtube.com/watch?v=c_R4L266D3M "Worlds First FULL 16-Bit Color Display In Terraria!")
+[![RGB Display](https://github.com/user-attachments/assets/3742ed39-6e9e-4863-a00a-71bbd0c3947f)](https://www.youtube.com/watch?v=c_R4L266D3M "Worlds First FULL 4-Bit Color Display In Terraria!")
 
-![Vanilla_Terraria_16-Bit_Shrek](https://github.com/user-attachments/assets/f6074bed-9a12-4519-9cca-ead9a8b0e359)
+![Vanilla_Terraria_4-Bit_Shrek](https://github.com/user-attachments/assets/f6074bed-9a12-4519-9cca-ead9a8b0e359)
 
 ## How It Works?
 
@@ -31,7 +31,7 @@ Let’s take a look at another wiring mechanic in Terraria called the Wire Bulb.
 
 <img src="https://github.com/user-attachments/assets/2e8af19f-c820-4796-87d6-f818ca2723ec" width="250" height="250"/><img src="https://github.com/user-attachments/assets/839eb116-30fd-4c3d-84db-b1dbad07e8a0" width="25" height="1"/><img src="https://github.com/user-attachments/assets/038f1f6a-89cf-4f8b-a9dd-666709576b72" width="450" height="320"/>
 
-Like many different games that have RGB mechanics, the help of texture packs is essential. With these texture packs, we can actually retexture the Wire Bulbs to be solid colors. This means a single 1x1 tile will actually have 16 possible colors, or 16-Bits of color.
+Like many different games that have RGB mechanics, the help of texture packs is essential. With these texture packs, we can actually retexture the Wire Bulbs to be solid colors. This means a single 1x1 tile will actually have 16 possible colors, or 4-Bits of color.
 
 #### **Image 1: Without Texture Pack** | **Image 2: With Texture Pack**
 
@@ -51,7 +51,7 @@ Without getting too technical, this glitch allows us to simply change the wire b
 
 <img src="https://github.com/user-attachments/assets/8bade025-02df-40d3-80cd-d92a2a8fb657" width="400" height="350"/>
 
-So by stacking these modules, we can achieve flush full 16-bit color displays!
+So by stacking these modules, we can achieve flush full 4-bit color displays!
 
 #### **Image 1: Display Demo** | **Image 2: Wiring View**
 
@@ -75,7 +75,7 @@ Steps:
 
 ### **Step2: Converting Image Sequence To Schematic**
 
-Using the tool `PictureToBinaryRGB` it’s possible to easily convert all the images to a binary nibble sequence of 0000 - 1111 representing each pixel as a 16-bit color. This tool also brings many quality-of-life features such as the ability to generate the color palette automatically via a `k-Means` palette algorithm. This tool also does the liberty of automatically downsizing all images via the `nearest neighbor` algorithm to the `MaxWidth` & `MaxHeight` offsets.
+Using the tool `PictureToBinaryRGB` it’s possible to easily convert all the images to a binary nibble sequence of 0000 - 1111 representing each pixel as a 4-bit color. This tool also brings many quality-of-life features such as the ability to generate the color palette automatically via a `k-Means` palette algorithm. This tool also does the liberty of automatically downsizing all images via the `nearest neighbor` algorithm to the `MaxWidth` & `MaxHeight` offsets.
 
 About: *(these settings are already configured by defualt)*
  - `R → L`     - Chooses the direction of 'X' while processing the image.
