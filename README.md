@@ -68,9 +68,9 @@ Notes:
 Steps:
 1) [[Link](https://yt1s.com/en5)] Download Original Video.
 2) [[Link](https://www.zapstudio.net/framecalc/)] Calculate what FPS is required to fit within 768 frames.
-3) [[Link](https://www.video2edit.com/convert-to-video)] Reduce FPS of the video. **Optional: ** Reduce To 116x66.
+3) [[Link](https://www.video2edit.com/convert-to-video)] Reduce FPS of the video. **Optional:** Reduce To 116x66.
 4) [[Link](https://mconverter.eu/convert/mp4/png/)] Convert To Image Sequence.
-5) [[Link](https://www.xnview.com/en/xnconvert/)] **Optional: ** Bulk Convert To 116x65 Using Resize & NearestNeighbour Resample.
+5) [[Link](https://www.xnview.com/en/xnconvert/)] **Optional:** Bulk Convert To 116x65 Using Resize & NearestNeighbour Resample.
 
 
 ### **Step2: Converting Image Sequence To Schematic**
@@ -117,7 +117,7 @@ DnSpy Method:
 9) Now launch your renamed and modified Terraria executable.
 10) Launch a new copy of the display world and use the chat command `/arom`.
 11) An open file dialog will open. Navigate to your image sequence `.p2p` file and select it.
-12) **Attention: ** Your game will freeze temporarily while it’s working. It’s not broken just give it some time. It will unfreeze when complete.
+12) **Attention:** Your game will freeze temporarily while it’s working. It’s not broken just give it some time. It will unfreeze when complete.
 (To programmers: I kept it this way on purpose to prevent players from assuming its finished instantly.)
  
 <details><summary>116x65: Show Code</summary>
