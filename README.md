@@ -3,7 +3,7 @@ Worlds First FULL 4-Bit Color Display In Terraria.
 
 [![RGB Display](https://github.com/user-attachments/assets/3742ed39-6e9e-4863-a00a-71bbd0c3947f)](https://www.youtube.com/watch?v=c_R4L266D3M "Worlds First FULL 4-Bit Color Display In Terraria!")
 
-![Vanilla_Terraria_4-Bit_Shrek](https://github.com/user-attachments/assets/f6074bed-9a12-4519-9cca-ead9a8b0e359)
+![Vanilla_Terraria_4-Bit_Shrek](https://github.com/user-attachments/assets/cc9f318c-5ea6-4124-ae1a-95fbb6c3dcc9)
 
 ## How It Works?
 
